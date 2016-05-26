@@ -1,0 +1,14 @@
+@color1 :;
+@tipografia :Raleway;
+header nav {
+  height: 10px; }
+  header nav img {
+    height: 40px; }
+  header nav ul li a {
+    top: -100; }
+
+.precios {
+  background-color: #999999;
+  margin: 4px; }
+
+/*# sourceMappingURL=main.css.map */
