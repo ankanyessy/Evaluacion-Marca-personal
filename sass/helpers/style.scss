@@ -1,21 +1,59 @@
-header {
-	nav {
-		height: 10px;
-		img {
-			height: 40px;
-		}
-		ul li a {
-			top: -100;
-			}
-		}
-
-	
+.bg-images {
+	background-image: url(../images/back-lock.jpg);
+	background-repeat: no-repeat;
+	.align-center {
+		font-family: Raleway, Sans-serif;
+	}
 }
 
+.text {
+	p {
+		font-size: 20px;
+	}
+	.iconos-images {
+		padding-top: 40px;
+		span {
+			color: #E8E5E5;
+		}
+	}
+	.iconos-text {
+		padding-top: 25px;
+	}
+}
 
-.precios {
-	background-color: #999999;
-	margin: 4px;
+.planes {
+	padding-top: 15px; 
+	.precios {
+	background-color: #D6D6D7;
+	float: left;
+	margin:8px;
+	width: 23%;
+	.best {
+		float: left;
+		img, p {
+			left: 20px;
+		}
+	}
+	.imagen-precios {
+		padding-top: 40px;
+	}
 
-
+	.border {
+		border-bottom: 1px solid #999999;
+	}
+	.inicio-plan {
+		border-bottom: 1px solid #999999;
+		h3 {
+			text-align: center;
+			font-family: Raleway, Sans-serif;
+			}
+		}
+	}
+	.order {
+			background-color: black;
+			color: white;
+			height: 40px;
+			text-align: center;
+			padding-top: 15px;
+		}
 }

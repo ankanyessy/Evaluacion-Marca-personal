@@ -1,0 +1,19 @@
+footer {
+	background-color: #E5E8E8;
+	.imagen-log {
+		
+	}
+	.iconos-redes {
+		li {
+			display: inline-table;
+			margin-left: 10px;
+			padding-top: 20px;
+			a {
+				text-decoration: none;
+				i {
+					color: gray;
+				}
+			}
+		}
+	}
+}

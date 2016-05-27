@@ -1,14 +1,64 @@
-@color1 :;
+@color1 :red;
 @tipografia :Raleway;
-header nav {
+.bg-images {
+  background-image: url(../images/back-lock.jpg);
+  background-repeat: no-repeat; }
+  .bg-images .align-center {
+    font-family: Raleway, Sans-serif; }
+
+.text p {
+  font-size: 20px; }
+.text .iconos-images {
+  padding-top: 40px; }
+  .text .iconos-images span {
+    color: #E8E5E5; }
+.text .iconos-text {
+  padding-top: 25px; }
+
+.planes {
+  padding-top: 15px; }
+  .planes .precios {
+    background-color: #D6D6D7;
+    float: left;
+    margin: 8px;
+    width: 23%; }
+    .planes .precios .best {
+      float: left; }
+      .planes .precios .best img, .planes .precios .best p {
+        left: 20px; }
+    .planes .precios .imagen-precios {
+      padding-top: 40px; }
+    .planes .precios .border {
+      border-bottom: 1px solid #999999; }
+    .planes .precios .inicio-plan {
+      border-bottom: 1px solid #999999; }
+      .planes .precios .inicio-plan h3 {
+        text-align: center;
+        font-family: Raleway, Sans-serif; }
+  .planes .order {
+    background-color: black;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px; }
+
+header {
   height: 10px; }
   header nav img {
     height: 40px; }
-  header nav ul li a {
-    top: -100; }
+  header nav ul li {
+    display: inline-table;
+    margin-left: 20px; }
 
-.precios {
-  background-color: #999999;
-  margin: 4px; }
+footer {
+  background-color: #E5E8E8; }
+  footer .iconos-redes li {
+    display: inline-table;
+    margin-left: 10px;
+    padding-top: 20px; }
+    footer .iconos-redes li a {
+      text-decoration: none; }
+      footer .iconos-redes li a i {
+        color: gray; }
 
 /*# sourceMappingURL=main.css.map */
